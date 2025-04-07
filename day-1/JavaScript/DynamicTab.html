@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Itz my Dynamic Table</h1>
+    <button class="add-btn" onclick="addRow()"> Add Row</button>
+    <table id="userTable">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Age</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+
+        <tbody id="body">
+
+        </tbody>
+    </table>
+    <script>
+        function addRow(){
+          const tbodyy=document.getElementById('body')
+          const newrow=tbodyy.insertRow();
+          newrow.innerHTML=`
+          <td><input type="text" placeholder="name"></td>
+          <td><input type="email" placeholder="email"></td>
+          <td><input type="number" placeholder="age"></td>
+          <td>
+          <button class="save-btn" onclick="saveRow(this)">Save</button>
+          <button class="save-btn" onclick="deleteRow(this)">Delete</button>    
+          </td>
+          `;
+        }
+        function saveRow(button){
+         const row=button.parentNode.parentNode;
+         const inputs=row.querySelectorAll('input');
+         inputs.forEach(input => {
+            const td=input.parentNode
+            td.textContent=input.value
+         });
+         row.querySelector(".save-btn").textContent="Edit";
+         row.querySelector(".save-btn").className="edit-btn";
+         row.querySelector(".edit-btn").setAttribute("onClick","editRow(this)");
+
+        }
+        function editRow(button){
+            const row=button.parentNode.parentNode
+            const cell=row.querySelectorAll('td')
+
+            const name=cell[0].textContent
+            const email=cell[1].textContent
+            const age=cell[2].textContent
+
+            cell[0].innerHTML=`<input type="text" value="${name}">`;
+            cell[1].innerHTML=`<input type="text" value="${email}">`;
+            cell[2].innerHTML=`<input type="text" value="${age}">`;
+
+            button.textContent="Save"
+            button.className="save-btn"
+            button.setAttribute("onClick","saveRow(this)")
+        }
+        function deleteRow(button){
+         const row=button.parentNode.parentNode
+         row.remove();
+        }
+    </script>
+</body>
+</html>

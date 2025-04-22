@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "Wireless Noise-Canceling Headphones",
+    "price": 249.99,
+    "image": "https://images.pexels.com/photos/3394666/pexels-photo-3394666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "Premium wireless headphones with active noise cancellation and 30-hour battery life."
+  },
+  {
+    "id": 2,
+    "title": "Smart Fitness Watch",
+    "price": 199.99,
+    "image": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "Track your workouts, heart rate, sleep, and more with this waterproof smart fitness watch."
+  },
+  {
+    "id": 3,
+    "title": "Portable Bluetooth Speaker",
+    "price": 79.99,
+    "image": "https://images.pexels.com/photos/9909802/pexels-photo-9909802.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "Powerful, waterproof speaker with 360° sound and 12-hour battery life."
+  },
+  {
+    "id": 4,
+    "title": "Ultra-thin Laptop",
+    "price": 1299.99,
+    "image": "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "Powerful laptop with 16GB RAM, 512GB SSD, and all-day battery life in an ultra-thin design."
+  },
+  {
+    "id": 5,
+    "title": "Professional DSLR Camera",
+    "price": 899.99,
+    "image": "https://images.pexels.com/photos/243757/pexels-photo-243757.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "24.2MP camera with 4K video recording, 45-point autofocus, and Wi-Fi connectivity."
+  },
+  {
+    "id": 6,
+    "title": "Smart Home Security System",
+    "price": 349.99,
+    "image": "https://images.pexels.com/photos/60504/security-home-protection-smart-60504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "Complete home security with HD cameras, motion detection, and smartphone alerts."
+  },
+  {
+    "id": 7,
+    "title": "Ergonomic Office Chair",
+    "price": 299.99,
+    "image": "https://images.pexels.com/photos/1957478/pexels-photo-1957478.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "Adjustable chair with lumbar support, breathable mesh, and 360° swivel."
+  },
+  {
+    "id": 8,
+    "title": "Smartphone Gimbal Stabilizer",
+    "price": 129.99,
+    "image": "https://images.pexels.com/photos/66134/pexels-photo-66134.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "3-axis gimbal stabilizer for smartphones with active tracking and foldable design."
+  },
+  {
+    "id": 9,
+    "title": "Wireless Earbuds",
+    "price": 149.99,
+    "image": "https://images.pexels.com/photos/8000634/pexels-photo-8000634.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "True wireless earbuds with noise isolation, touch controls, and charging case."
+  },
+  {
+    "id": 10,
+    "title": "Mechanical Keyboard",
+    "price": 159.99,
+    "image": "https://images.pexels.com/photos/1772123/pexels-photo-1772123.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "RGB backlit mechanical keyboard with customizable keys and ergonomic design."
+  }
+]
